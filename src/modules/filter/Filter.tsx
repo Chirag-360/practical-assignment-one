@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const Filter = () => {
   return (
@@ -6,19 +6,33 @@ export const Filter = () => {
       <div className="flex items-center mb-2 md:mb-0">
         <div className="flex items-center mr-4">
           <span className="text-gray-600 ml-2">
-            <img src="./public/FilterIcons/settings.png" className="mr-3 h-6" alt="Settings Icon" />
+            <img
+              src="/FilterIcons/settings.png"
+              className="mr-3 h-6"
+              alt="Settings Icon"
+            />
           </span>
           <span className="mr-2 text-xl">Filter </span>
           <span className="text-gray-600 ml-2">
-            <img src="./public/FilterIcons/dots.png" className="mr-3 h-6" alt="Dots Icon" />
+            <img
+              src="/FilterIcons/dots.png"
+              className="mr-3 h-6"
+              alt="Dots Icon"
+            />
           </span>
           <span className="text-gray-600 mx-2">
-            <img src="./public/FilterIcons/tabs.png" className="mr-3 h-6" alt="Tabs Icon" />
+            <img
+              src="/FilterIcons/tabs.png"
+              className="mr-3 h-6"
+              alt="Tabs Icon"
+            />
           </span>
           <div className="border-l border-gray-300 h-14"></div>
         </div>
         <div className="flex items-center">
-          <span className="mr-2 text-xl whitespace-nowrap">Showing 1–16 of 32 results</span>
+          <span className="mr-2 text-xl whitespace-nowrap">
+            Showing 1–16 of 32 results
+          </span>
         </div>
       </div>
 
