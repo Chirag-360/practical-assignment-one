@@ -3,22 +3,22 @@ import React from "react";
 export const AdPanel = () => {
   const ads = [
     {
-      icon: "./adIcons/trophy 1.png",
+      icon: "/adIcons/trophy 1.png",
       title: "High Quality",
       subtitle: "crafted from top materials",
     },
     {
-      icon: "./adIcons/guarantee.png",
+      icon: "/adIcons/guarantee.png",
       title: "Warranty Protection",
       subtitle: "Over 2 years",
     },
     {
-      icon: "./adIcons/present.png",
+      icon: "/adIcons/present.png",
       title: "Free Shipping",
       subtitle: "Order over 150 $",
     },
     {
-      icon: "./adIcons/support.png",
+      icon: "/adIcons/support.png",
       title: "24 / 7 Support",
       subtitle: "Dedicated support",
     },
